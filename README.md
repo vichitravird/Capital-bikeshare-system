@@ -9,15 +9,24 @@ We will be using the daily version of the Capital Bikeshare System dataset. This
 day: Day of the record (relative to day 1:2011-01-01)
 
 **season**: Season (1:spring, 2:summer, 3:fall, 4:winter)
+
 **weekday**: Day of the week (0=Sunday, 6=Saturday)
+
 **workingday**: If day is neither on a weekend nor a holiday this is 1, otherwise this is 0.
+
 **weathersit**:
 1: Clear, Few clouds, Partly cloudy, Partly cloudy
 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+
 **temp**: Normalized temperature in Celcius
+
 **windspeed**: Normalized wind speed
+
 **casual**: Count of checkouts by casual/non-registered users
+
 **registered**: Count of checkouts by registered users
+
 **cnt**: Total checkouts
+
 
